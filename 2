@@ -1,0 +1,18 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+LDA 8000
+MOV B, A
+LDA 8001
+SUB B
+STA 8002
+RST 1
+hlt
